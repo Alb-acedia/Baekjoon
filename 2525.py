@@ -6,6 +6,6 @@ while b >= 60:
     b = b - 60
     a += 1
     if a > 23:
-        a -= 23
+        a -= 24
 
 print(a, b)
