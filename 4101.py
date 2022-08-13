@@ -1,8 +1,8 @@
 while True:
     a, b = map(int, input().split())
     if a > b:
-        print("yes")
+        print("Yes")
     elif a == 0 and b == 0:
         break
     else:
-        print("no")
+        print("No")
