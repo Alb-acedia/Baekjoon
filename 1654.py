@@ -1,4 +1,3 @@
-# 이분탐색
 import sys
 
 lan = []
@@ -7,8 +6,8 @@ k, n = map(int, input().split())
 for _ in range(k):
     lan.append(int(sys.stdin.readline()))
 
+# 이분탐색
 st, end = 1, max(lan)
-
 while st <= end:
     mid = (st + end) // 2
     cnt = 0
