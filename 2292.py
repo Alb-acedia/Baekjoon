@@ -1,18 +1,17 @@
 n = int(input())
 i = 1
-index = 1
-prev = 0
-cnt = 1
+index = 0
+cnt = 2
 while True:
-    if n >= 6 * (index + 1) - 4 and n <= 6 * index + 1:
-        print("True")
-        print(index)
+    if n == 1:
+        cnt = 1
+        break
+    if n >= 6 * (index + 1) - 4 and n <= 6 * (index + i) + 1:
         break
     else:
-        i += 1
         index = index + i
-        print("index")
-        print(index)
-    cnt += 1
+        i += 1
+        cnt += 1
+
 
 print(cnt)
